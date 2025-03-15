@@ -8,9 +8,11 @@ salt_per_pie = 1/4
 nutmeg_per_pie = 1/8 
 lemon_juice_per_pie = 1 
 
+# input and intialize number of pie!
 number_of_pies = input("How many pies do you need: ")
 number_of_pies = int(number_of_pies)
 
+# Multiple number of pie * ingredients 
 print("Boxs of pie crust", (number_of_pies * pie_crust_per_pie))
 print("flours of tsp", (number_of_pies * flour_per_pie))
 print("apples", (number_of_pies * apples_per_pie))
